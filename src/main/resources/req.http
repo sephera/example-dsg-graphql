@@ -1,0 +1,12 @@
+POST http://localhost:8080/graphql
+Accept: application/json
+Content-Type: application/graphql
+
+{
+    shows {
+        title
+        releaseYear
+    }
+}
+
+###
